@@ -14,7 +14,7 @@
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
             
-            "console": "integratedTerminal"
+            "console": "externalTerminal"
     }
     ]
 }

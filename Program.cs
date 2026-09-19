@@ -5,6 +5,8 @@ class Program
 {
     static void Main()
     {
+        // Fuerza a la consola a usar UTF-8 para que lea correctamente el alien
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.CursorVisible = false; // Oculta el cursor para que se vea más limpio
         int x = 10, y = 5;             // Posición del jugador
         int frames = 0;                // Contador para demostrar que el bucle no se detiene
